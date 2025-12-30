@@ -154,12 +154,33 @@
         .social-links a {
             color: #667eea;
             text-decoration: none;
-            font-size: 1.1rem;
-            transition: color 0.3s;
+            transition: all 0.3s;
         }
 
         .social-links a:hover {
-            color: #764ba2;
+            transform: translateY(-3px);
+        }
+
+        .social-icon {
+            width: 60px;
+            height: 60px;
+            background: #667eea;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.3s;
+        }
+
+        .social-links a:hover .social-icon {
+            background: #764ba2;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+
+        .social-icon svg {
+            width: 24px;
+            height: 24px;
+            fill: white;
         }
 
         footer {
