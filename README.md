@@ -1,1 +1,1 @@
-# trustbydesign.github.io
+# trstbydsgn.github.io
